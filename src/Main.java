@@ -44,7 +44,7 @@ public class Main {
                     double valorTransferido;
                     System.out.println("Informe o valor a ser transferido:");
                     valorTransferido = leitura.nextDouble();
-                    saldo += valorTransferido;
+                    saldo -= valorTransferido;
                     System.out.printf("Saldo atualizado para R$ %.2f\n",saldo);
                     break;
 
